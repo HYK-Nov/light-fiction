@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-display: swap;
+  src: url('../assets/fonts/NotoSansKR-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cafe24Ohsquare';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  text-decoration: none;
+  color: inherit;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
